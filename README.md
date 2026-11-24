@@ -79,7 +79,7 @@ godcam/
 | `ui/camera_dialog.py` | Cadastro e edição de câmeras |
 | `ui/help_dialog.py` | Documentação e ajuda offline |
 
-## Instalação — Windows
+## Instalação | Windows
 
 ### Requisitos
 
@@ -161,7 +161,7 @@ Quando houver erro de autenticação nos comandos ONVIF, verifique o relógio in
 
 O projeto possui compensação de horário através do parâmetro `adjust_time`.
 
-## Falar — Push-to-talk experimental
+## Falar | Push-to-talk experimental
 
 A funcionalidade Falar utiliza captura do microfone e codificação G.711 A-law.
 
@@ -187,7 +187,7 @@ Câmeras que ofereçam um canal de retorno de áudio ONVIF/RTSP compatível pode
 
 ## Acesso remoto
 
-### Opção A — Tailscale (recomendada)
+### Opção A | Tailscale (recomendada)
 
 A utilização do Tailscale com um subnet router permite acessar as câmeras remotamente sem precisar expor diretamente suas portas à internet.
 
@@ -217,7 +217,7 @@ Recomenda-se reservar endereços IP fixos para as câmeras através do DHCP do r
 
 Para economizar banda, pode-se utilizar o stream secundário (Stream = 1), quando suportado pelo equipamento.
 
-### Opção B — Port forwarding e DDNS
+### Opção B | Port forwarding e DDNS
 
 Outra possibilidade é utilizar encaminhamento de portas no roteador e um serviço DDNS.
 
@@ -349,7 +349,7 @@ Desenvolvido por Ernani Salasar.
 
 ## Estado do desenvolvimento
 
-**Versão 0.0.1 — Em desenvolvimento.**
+**Versão 0.0.1 Em desenvolvimento.**
 
 O GodCam ainda está recebendo melhorias e correções.
 
