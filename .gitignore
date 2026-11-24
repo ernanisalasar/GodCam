@@ -1,0 +1,64 @@
+# Python e ambientes locais
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Configurações e credenciais locais
+.env
+.env.*
+!.env.example
+cameras.json
+cameras.*.json
+config.local.*
+settings.local.*
+*.local
+
+# IDE, sistema e temporários
+.idea/
+.vscode/
+*.code-workspace
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Logs, diagnósticos e dados privados
+*.log
+*.dmp
+*.dump
+crash-reports/
+reports/private/
+
+# Capturas de rede e mídia gravada
+*.pcap
+*.pcapng
+*.pcapng.gz
+*.cap
+recordings/
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# Backups e migrações locais
+backup/
+backups/
+*.bak
+*.old
+.*-*.tmp
+
+# Empacotamento e arquivos de desenvolvimento não versionados
+build/
+dist/
+*.spec
+*.zip
+*.7z
+*.tar
+*.gz

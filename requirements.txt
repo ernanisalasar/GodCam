@@ -1,0 +1,15 @@
+# Interface gráfica
+PyQt6>=6.6
+
+# Vídeo/áudio RTSP (requer o VLC Desktop instalado, mesma arquitetura do Python: 64 bits)
+python-vlc>=3.0.20123
+
+# PTZ via ONVIF
+onvif-zeep>=0.2.12
+
+# Áudio bidirecional (captura do microfone) e codificação G.711
+sounddevice>=0.4.6
+numpy>=1.26
+
+# Gravação .mp4 usa o binário externo "ffmpeg" (não é pacote pip):
+#   winget install Gyan.FFmpeg
